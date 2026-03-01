@@ -207,6 +207,9 @@ void add_rect(SquareGrid& grid, int x1, int y1, int x2, int y2) {
             grid.walls.insert(GridLocation{ x, y });
         }
     }
+    
+
+
 }
 
 SquareGrid make_diagram1() {
